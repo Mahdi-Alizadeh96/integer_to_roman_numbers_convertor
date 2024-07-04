@@ -1,12 +1,13 @@
 {
     "compilerOptions": {
       "target": "esnext",
-      "module": "commonjs",
+      "module": "NodeNext",
       "outDir": "./dist",
       "rootDir": "./src",
       "strict": true,
       "esModuleInterop": true,
       "skipLibCheck": true,
+      "moduleResolution" : "NodeNext",
       "forceConsistentCasingInFileNames": true
     },
     "include": ["src/**/*"]
