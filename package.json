@@ -1,0 +1,26 @@
+{
+  "name": "integer_to_roman_numbers_convertor",
+  "version": "0.1.0",
+  "description": "convert integer to roman numbers",
+  "main": "./src/app.ts",
+  "scripts": {
+    "start": "concurrently \"tsc --watch\" \"nodemon dist/app.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mahdi-Alizadeh96/integer_to_roman_numbers_convertor.git"
+  },
+  "keywords": [
+    "roman_numbers"
+  ],
+  "author": "Mahdi-Alizadeh96",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mahdi-Alizadeh96/integer_to_roman_numbers_convertor/issues"
+  },
+  "homepage": "https://github.com/Mahdi-Alizadeh96/integer_to_roman_numbers_convertor#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.4"
+  }
+}
